@@ -12,6 +12,7 @@ import UserForm from "./pages/UserForm";
 import UserProfilePage from "./pages/UserProfilePage";
 import UsersPage from "./pages/UsersPage";
 import RequestPage from "./pages/RequestPage"
+import UserFormContainer from "./pages/UserFormContainer";
 
 // --------------------------------------------
 // main
@@ -25,7 +26,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
             <Route index element={<HomePage />} />
             <Route path="/Users" element={<UsersPage />} />
             <Route path="/Profile" element={<UserProfilePage />} />
-            <Route path="/UserForm" element={<UserForm />} />
+            <Route path="/UserForm" element={<UserFormContainer />} />
             <Route path="/UserProfilePage" element={<UserProfilePage />} />
             <Route path="/Appointments" element={<AppointmentsPage />} />
             <Route path="/Requests" element={<RequestPage />} />

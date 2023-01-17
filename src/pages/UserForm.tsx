@@ -1,8 +1,8 @@
 // --------------------------------------------
-// Es código es de simulación ya que no hay
-// conexión con la BD. Además, dado el funcinamiento
-// de React y sus hooks se utlizó una componente
-// en vez de una clase
+// Dada la implementación de un segundo patrón
+// de diseño, este componente ya no esta en uso,
+// pero se deja para la comprobración del uso
+// de dicho patrón.
 // --------------------------------------------
 
 // --------------------------------------------

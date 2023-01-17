@@ -35,8 +35,6 @@ export class UserTableDecorator extends TableDecorator {
             </th>
           </tr>
         ))}
-        {/* Esta línea se utilizaria en en caso de tener conexión con la BD */}
-        {/* <Users /> */}
         <Outlet />
       </tbody>
     );
